@@ -11,7 +11,7 @@ executors:
     working_directory: /var/app
   my-alpine:
     docker:
-      - image: alpine:latest
+      - image: buildpack-deps:jessie
     working_directory: /tmp
 
 jobs:
